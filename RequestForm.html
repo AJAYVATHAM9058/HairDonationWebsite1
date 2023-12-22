@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title> Request Form</title>
+ </head>
+ <body>
+
+
+ <style>
+body {font-family: Arial, Helvetica, sans-serif;}
+body{
+
+  
+ 
+  margin:0;
+  padding:0;
+  text-align:center;
+  background:url('https://policeresults.com/img/world-cancer-day-background.jpg');
+  background-size:1370px 800px;
+  background-position:center
+  background-repeat:no-repeat;
+  color:black;
+  font-family:sans-serrif;
+
+}
+</style>
+
+
+
+
+
+   <!-- form elements-->
+   <form action="RequestForm.php" method="POST" align="center">
+     <h1>Request Form</h1>
+     
+     <fieldset>
+     
+      <label for="name"><b>Name&nbsp;&nbsp;:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="text" placeholder="Enter your Full Name"id="name" name="user_name" required><br><br>
+
+      <label for="email"><b>Email&nbsp;&nbsp;:</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="email" id="email" name="user_email" placeholder="Enter your Email" required><br><br>
+
+      <label for="number"><b>Mobile No.</b> &nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="int" id="number" name="user_number" placeholder="Enter your Mobile number" required><br><br>
+ 
+      <label for="date_of_birth"><b>Date Of Birth &nbsp;&nbsp;:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="date" id="date_of_birth" name="user_date_birth" placeholder="dd/mm/yyyy" required><br><br>
+
+      <label for="city"><b>City &nbsp;&nbsp;:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="text" placeholder="Enter Nearest City"id="city" name="user_city"  required><br><br>
+
+      <label><b>Are you suffering with Cancer &nbsp;&nbsp;: </b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+       <input type="radio" value="yes" id="yes" name="IsUserCancer"> 
+       <label for="yes"><b>Yes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
+     
+       <input type="radio" value="no" id="no" name="IsUserCancer">  
+       <label for="no"><b>No&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label><br><br><br>
+     
+      
+
+
+      <button type="submit"><b>Submit</b></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <button type="reset"><b>Clear</b></button>
+   
+      
+     </fieldset><br>
+   </form>
+ 
+
+ </body>
+</html>
